@@ -1,100 +1,129 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
-body{
-    font-family: "Arvo", serif;
-    flex-wrap: wrap;
-    background: linear-gradient(360deg, rgb(70, 80, 125), rgb(181, 217, 255));
-}
-
-
-.main-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 10px;
-}
-
-.main-container{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    border-top: 0.8px solid black;
-    align-items: center;
-    padding-top: 50px;
-}
-
-.exp-container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.img-jogo{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: solid black ;
-    width: 250px;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
-}
+    body{
+        font-size: 100%;
+        font-family: "Arvo", serif;
+        flex-wrap: wrap;
+        background: linear-gradient(68.15deg, #5e4549 16.62%, #8E5D52 86.61%);
+    }
 
 
+    .main-header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .main{
+        border-top: 0.8px solid black;
+        margin-bottom: 48px;
+    }
+
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
-.RA-container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-}
-.img-ra{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: solid black ;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
-}
+    .exp-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .img-jogo{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: solid black ;
+        width: 250px;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
+    }
 
 
 
-.FC-container{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-}
 
-.img-fc{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: solid black ;
-    width: 200px;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
-}
-
-.headers{
-    text-decoration: underline 1px;
-}
-
-.footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 190px;
-    padding-top: 9px;
-    border-top: 0.8px solid black;
-}
-
-.header-proj{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    .RA-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .img-ra{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: solid black ;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
+    }
 
 
+
+    .FC-container{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .img-fc{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        border: solid black ;
+        width: 200px;
+        border-radius: 3px;
+        box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
+    }
+
+    .headers{
+        text-decoration: underline 1px;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        padding: 36px;
+    }
+
+    .header-proj{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .second-main{
+        padding: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .second-main-text{
+        padding-top: 10px;
+        border-top: 0.8px solid black;
+    }
+
+
+
+
+    .footer-text{
+        display: block;
+        margin: 0 auto;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.558);
+        border-radius: 2px;
+        padding: 10px;
+
+    }
