@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Arvo", serif;
+    flex-wrap: wrap;
+    background: linear-gradient(360deg, rgb(70, 80, 125), rgb(181, 217, 255));
+}
+
+
+.main-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    border-top: 0.8px solid black;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.exp-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.img-jogo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid black ;
+    width: 250px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
+}
+
+
+
+
+.RA-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.img-ra{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid black ;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
+}
+
+
+
+.FC-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.img-fc{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid black ;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.422) 5px 10px;
+}
+
+.headers{
+    text-decoration: underline 1px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+    padding-top: 9px;
+    border-top: 0.8px solid black;
+}
+
+.header-proj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
